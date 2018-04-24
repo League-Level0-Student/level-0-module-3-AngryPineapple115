@@ -1,29 +1,31 @@
+int bee = 50;
+int bumble = 50;
 void draw() {
 /*Use a loop to make a body for the Bee!
 Then put his head on using drawBeeFace(x,y)
 Use Modulo to make the colors alternate 
 */
-int bee = 50;
-int bumble = 50;
-for (int i = 0; i < 20; i++){
+if (bee<450){
+
+for (int i = 0; i < 2; i++){
+
+
 if (i%2==0){
- fill(#F6FF00);
+ fill(#FFF700);
 }
-if(i%2==1) {
+
+else {
 fill(#000000);
-ellipse (bee,bumble,20,20);
-for (int e = 0; e < 20; e++){
-bee+=1;
-bumble+=1;
-
 }
-
+ellipse (bee,bumble,30,30);
+bee+=10;
+bumble+=10;
 }
-
 }
-
+else {
+  drawBeeFace(450,450);
 }
-
+}
 void drawFlower(int x, int y) {
      noStroke();
      translate(x, y);
