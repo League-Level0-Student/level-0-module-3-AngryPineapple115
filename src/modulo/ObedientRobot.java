@@ -7,6 +7,7 @@ import javax.swing.JOptionPane;
 import org.jointheleague.graphical.robot.Robot;
 
 public class ObedientRobot {
+	
 	static Robot bob = new Robot();
 
 	public static void main(String[] args) {
