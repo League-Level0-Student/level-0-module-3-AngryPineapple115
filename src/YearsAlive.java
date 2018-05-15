@@ -4,12 +4,12 @@ public class YearsAlive {
 
 	public static void main(String[] args) {
 
-		int year = 2006;
+		int alive = 2006;
 
 		for (int age = 0; age < 13; age++) {
 
-			JOptionPane.showMessageDialog(null, year);
-			year++;
+			JOptionPane.showMessageDialog(null, alive);
+			alive++;
 		}
 
 	}

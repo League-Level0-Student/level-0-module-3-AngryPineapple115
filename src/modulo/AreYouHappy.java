@@ -21,7 +21,6 @@ public class AreYouHappy {
 				JOptionPane.showMessageDialog(null, "Change something.");
 			}
 
-			
 		}
 	}
 }
